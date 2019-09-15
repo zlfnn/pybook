@@ -1,0 +1,85 @@
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/img/3.png);
+  -webkit-background-size: 4rem auto;
+     -moz-background-size: 4rem auto;
+          background-size: 4rem auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  display: block;
+  margin: 0.4rem auto 0.8rem; }
+
+.title {
+  font-size: 0.48rem;
+  color: #333;
+  margin-left: 0.4rem;
+  border-left: 0.06667rem solid #ccc;
+  margin-top: 0.53333rem;
+  padding-left: 0.4rem; }
+
+.baseinfo {
+  padding: 0.4rem; }
+  .baseinfo li {
+    font-size: 0.42667rem;
+    overflow: hidden;
+    color: #777; }
+    .baseinfo li div {
+      padding: 0.26667rem;
+      border-top: 1px dashed #ccc;
+      float: left;
+      width: 48%;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box; }
+      .baseinfo li div:nth-child(2) {
+        float: right; }
+      .baseinfo li div.bot {
+        border-bottom: 1px dashed #ccc; }
+
+.experience {
+  padding: 0.4rem; }
+  .experience li {
+    font-size: 0.4rem;
+    padding-top: 0.26667rem;
+    padding-left: 0.4rem; }
+    .experience li span {
+      display: block;
+      position: relative; }
+      .experience li span:nth-child(1) {
+        padding-left: 0.4rem; }
+        .experience li span:nth-child(1):before {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          margin-top: -0.10667rem;
+          content: '';
+          width: 0.21333rem;
+          height: 0.21333rem;
+          background-color: #ddd;
+          -webkit-border-radius: 0.10667rem;
+             -moz-border-radius: 0.10667rem;
+                  border-radius: 0.10667rem; }
+      .experience li span:nth-child(2) {
+        padding-top: 0.13333rem;
+        padding-left: 0.21333rem;
+        text-indent: 1em;
+        color: #777; }
+
+.desc {
+  font-size: 0.37333rem;
+  padding: 0.13333rem 0.4rem 0.4rem;
+  line-height: 0.53333rem;
+  color: #777; }
+  .desc p {
+    padding-top: 0.26667rem; }
+
+.imgWrapper {
+  width: 9.2rem;
+  padding: 0.4rem;
+  margin: 0 auto; }
+  .imgWrapper img {
+    width: 100%; }

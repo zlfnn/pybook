@@ -1,0 +1,179 @@
+@charset "UTF-8";
+#__bs_notify__ {
+  display: none !important; }
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+input {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Verdana, Arial; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block; }
+
+i {
+  font-style: normal; }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-backface-visibility: hidden; }
+
+li {
+  list-style: none; }
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0 auto; }
+
+.f-l {
+  float: left; }
+
+.f-r {
+  float: right; }
+
+/*更目录字体*/
+html {
+  font-size: 32px;
+  outline: 0;
+  -ms-touch-action: none;
+  min-height: 100%; }
+
+/**  320 360 400 432  480  640*/
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 32px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 36px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 37.5px; } }
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 40px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 41.2px; } }
+
+@media screen and (min-width: 432px) {
+  html {
+    font-size: 43.2px; } }
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 54px; } }
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 64px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px; } }
+
+/*禁止用户调整字体大小*/
+textarea {
+  resize: none;
+  -webkit-appearance: none; }
+
+input {
+  -webkit-appearance: none; }
+
+input::-webkit-input-speech-button, input::-webkit-input-safebox-button {
+  display: none; }
+
+input[type=text]::-ms-clear {
+  display: none; }
+
+input[type=tel]::-ms-clear {
+  display: none; }
+
+input[type=number]::-ms-clear {
+  display: none; }
+
+.head-back, .click, input[type=text], input[type=number], input[type=button], img, button {
+  cursor: pointer; }
+
+input[type=radio]::-ms-check {
+  display: none; }
+
+input[type=checkbox]::-ms-check {
+  display: none; }
+
+a, button, input, textarea {
+  -webkit-tap-highlight-color: transparent; }
+
+/**禁用 iso A 链接后有链接**/
+* {
+  -webkit-tap-highlight-color: transparent; }
+
+/** ios input自带圆角边框问题 **/
+input {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  outline: none;
+  border: none; }
+
+/** input number自带的上下箭头问题 **/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important; }
+
+input[type="number"] {
+  -moz-appearance: textfield; }
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"], button {
+  cursor: pointer;
+  border: none; }
+
+input::-webkit-input-placeholder {
+  color: #999999; }
+
+input::-ms-input-placeholder {
+  color: #999999; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
